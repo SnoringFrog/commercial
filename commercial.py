@@ -1,4 +1,10 @@
+from __future__ import print_function
+
 import re
+
+try:
+    input = raw_input
+except: pass
 
 regexs = [
     re.compile(r"^\s*(\S+) now (\S+) dollars? off!\s*$"),
