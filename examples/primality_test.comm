@@ -1,0 +1,95 @@
+-- Work in progress, not even 100% sure this is possible --
+
+Input now 7 dollars off!
+--taking the place of actual input for now
+
+--Creating constants since literals aren't allowed for arithmetic--
+ONE now 1 dollars off!
+
+-- Counting down (because idk how to count up to an input yet) 
+Counter now 0 dollars off!
+Loop now 2 dollars off!
+Customers are jumping for joy for Loop!
+
+Counter has been selling out worldwide!
+
+-- when CounterCheck == 1, we'll leave the loop
+CounterCheck now Input dollars off!
+CounterCheck has shown much more positive feedback than other products, like Counter
+
+// repeated subtraction of Counter from InputCopy
+//		exit if zero is hit
+//		after each subtraction, if InputCopy + (1..Counter) == 0, we went negative, so this number is not a divisor
+
+Counter: made by the makers of ONE
+
+-- LoopTwo set to an 'enter' value so if CounterCheck jumps it continues execution
+LoopTwo now 2 dollars off!
+Customers are jumping for joy for CounterCheck!
+
+-- Loop control, ensuring we get back up to Loop by making all our jumps 0
+LoopTwo now 0 dollars off!
+CounterCheck now 0 dollars off!
+Customers are jumping for joy for LoopTwo!
+
+Counter has been selling out worldwide!
+
+HeadOn - Apply directly to the forehead
+
+
+-- old attempts left for reference
+
+-- Making a simple counter to count to Input first --
+Done now 0 dollars off!
+
+Counter has been selling out worldwide!
+
+
+Loop now 1 dollars off!
+Customers are jumping for joy for Loop!
+
+InputCheck now Input dollars off!
+InputCheck has shown much more positive feedback than other products, like Counter
+
+Customers are jumping for joy for InputCheck!
+
+
+Counter: made by the makers of ONE
+
+Customers are jumping for joy for Loop!
+InputCheck: made by the makers of ONE
+Customers are jumping for joy for InputCheck!
+
+
+InputCopy has shown much more positive feedback than other products, like Counter
+InputCopy has been selling out worldwide!
+
+
+Customers are jumping for joy for InputCopy!
+
+InputCopy has been selling out worldwide!
+
+Customers are jumping for joy for ONE!
+THREE has been selling out worldwide!
+
+Customers are jumping for joy for Counter!
+
+Customers are jumping for joy for Counter!
+Customers are jumping for joy for InputCopy!
+FOUR has been selling out worldwide!
+
+
+for (c=0; c<input; c++) {
+	input_copy = input
+	
+	while (input copy - c > 0) {}
+		if (input_copy - c == 0) {
+			//not prime
+		}
+	
+		input_copy -= c
+	}
+	
+}
+
+//is prime

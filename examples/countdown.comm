@@ -1,0 +1,66 @@
+Input now 7 dollars off!
+--taking the place of actual input for now
+
+--Creating constants since literals aren't allowed for arithmetic--
+ONE now 1 dollars off!
+
+-- Counting down (because idk how to count up to an input yet) 
+Counter now 0 dollars off!
+Loop now 2 dollars off!
+Customers are jumping for joy for Loop!
+
+Counter has been selling out worldwide!
+
+-- when CounterCheck == 1, we'll leave the loop
+CounterCheck now Input dollars off!
+CounterCheck has shown much more positive feedback than other products, like Counter
+
+Counter: made by the makers of ONE
+
+-- LoopTwo set to an 'enter' value so if CounterCheck jumps it continues execution
+LoopTwo now 2 dollars off!
+Customers are jumping for joy for CounterCheck!
+
+-- Loop control, ensuring we get back up to Loop by making all our jumps 0
+LoopTwo now 0 dollars off!
+CounterCheck now 0 dollars off!
+Customers are jumping for joy for LoopTwo!
+
+Counter has been selling out worldwide!
+
+HeadOn - Apply directly to the forehead
+
+---------
+
+func loop_jump(c) {
+	if (c==0) {
+		//go back to last loop_jump call
+	} else if (c==1) {
+		//go to next loop_jump call
+	} else {
+		//proceed to next line of program
+	}
+}
+
+	input = 7
+	counter = 0
+
+loop_jump(2)
+
+	print(counter)
+
+	lj_control_1 = input - counter //loop jump control 
+	counter++
+
+	lj_control_2 = 2
+loop_jump(lj_control_1)
+
+	lj_control_2 = 0
+	lj_control_1 = 0
+
+loop_jump(lj_control_2)
+
+	print(counter)
+
+	exit()
+
